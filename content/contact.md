@@ -1,8 +1,7 @@
 +++
 title = "Contact"
 weight = 60
-menuname = "Contact 2"
-draft = true
+draft = false
 +++
 
 <form id="contactform" method="post" action="https://formspree.io/contact@emergencejourney.org">
