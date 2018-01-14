@@ -1,4 +1,4 @@
-baseurl = "http://example.org"
+baseurl = "http://emergencejourney.org"
 title = "Emergence"
 theme = "dimension"
 languageCode = "en-us"
@@ -7,10 +7,20 @@ enableRobotsTXT = true
 disableKinds=["RSS"]
 
 [params]
-  description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
+  description = '<!--[-->Emergence<!--]--><br />'
   logo = "fa-adjust"
   copyright = "emergence"
+
+  showSubheader = true
+  showServices = true
+  showRecentWorks = true
+  showDownload = true
+  showClients = true
+
+  footerEnableContact = true
+  footerEnableFollowme = true
+  footerEnableTextWidget = true
+  footerEnableFormWidget = true
 
 [[params.social]]
   medium = "twitter"
@@ -20,7 +30,10 @@ disableKinds=["RSS"]
 [[params.social]]
   medium = "facebook"
   icon = "facebook"
-  link = "#"
+  link = "https://www.facebook.com/groups/2021207738157904/"
+  footer = true
+  sharethis = true
+  network = "facebook"
 
 [[params.social]]
   medium = "instagram"
@@ -32,11 +45,39 @@ disableKinds=["RSS"]
   icon = "github"
   link = "#"
 
+  # Navigation
+  [params.navigation]
+    brand = "Branding"
+
+  [params.sharethis]
+  property = "123456789012345678901234"
+  custom = true
+
 [languages]
 [languages.en]
 languageName = "English"
 weight = 1
 
 title = "Emergence"
-description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
-                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
+description = '<!--[-->From the dark chaos, a bright light gives light to order.  In the desert at Burning Man, experience Emergence!<!--]--><br />
+                <!--[-->Witness the Hatching Monday Night at Midnight at Burning Man 2018<!--]--><br />
+                <iframe src="http://free.timeanddate.com/countdown/i62d7q2o/n224/cf100/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cacfff/cpc000/pct/tc66c/fs200/szw256/szh108/iso2018-08-28T00:00:00/bo2" allowTransparency="true" frameborder="0" width="258" height="110"></iframe><br />
+                <!--[-->Count down untill Hatching<!--]--><br /><br />
+                <!--[--><a href="mailto:contact@emergencejourney.org?subject=Hello Emergence">Contact</a>     <a href="mailto:contact@emergencejourney.org?subject=Volunteer">Volunteer</a>     Donate (Coming Soon!)<!--]--><br />'
+#                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+#                {{ with .Site.Params.twitter }}<a href="{{.}}"><i class="fa fa-twitter-square"></i></a>&nbsp;&nbsp;{{end}}
+
+#{{ with .social }}
+#  Contact me at:
+#  Facebook: [{{ .GivenName }}](https://facebook.com/{{ .Social.facebook }})
+#{{ end }}
+
+#{{ if .Site.Params.social }}
+#<div class="social-buttons">
+#  {{ range .Site.Params.social }}
+#    {{ if and (isset . "url") (isset . "icon") }}
+#    <a href="{{ .url }}"><i class="fa lg fa-{{ .icon }}"></i></a>
+#    {{ end }}
+#  {{ end }}
+#</div>
+#{{ end }}
