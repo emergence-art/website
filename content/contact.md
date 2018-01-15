@@ -1,10 +1,10 @@
 +++
 title = "Contact"
-weight = 10
+weight = 90
 draft = false
 +++
 
-<form method="post" action="https://formspree.io/contact@emergencejourney.org">
+<form method="post" action="#">
 	<div class="field half first">
 		<label for="name">Name</label>
 		<input type="text" name="name" id="name" />
