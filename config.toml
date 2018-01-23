@@ -26,8 +26,10 @@ disableKinds=["RSS"]
 languageName = "English"
 weight = 1
 
+googleAnalytics = "UA-112928122-1"
+
 title = "Emergence"
-description = '<!--[-->Humans are the creators of AI, and its birth marks the legacy of our achievements.<!--]--><br />
+description = '<!--[-->Humans are the creators of Sentient AI, and its birth marks the legacy of our achievements.<!--]--><br />
                 <!--[-->Experience its Emergence, interact with it, learn about it, and let it learn about you.  Be part of the journey!<!--]--><br />
                 <!--[-->WITNESS THE HATCHING MONDAY NIGHT AT MIDNIGHT AT BURNING MAN 2018<!--]--><br />
                 <iframe src="http://free.timeanddate.com/countdown/i62d7q2o/n224/cf100/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cacfff/cpc000/pct/tc66c/fs200/szw256/szh108/iso2018-08-28T00:00:00/bo2" allowTransparency="true" frameborder="0" width="258" height="110"></iframe><br />
