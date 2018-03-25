@@ -43,6 +43,17 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+video {
+  width: 100%    !important;
+  height: auto   !important;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Basic */
 @-ms-viewport {
   width: device-width; }
