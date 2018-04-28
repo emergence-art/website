@@ -21,8 +21,6 @@
       $body = $('body'),
       $wrapper = $('#wrapper'),
       $header = $('#header'),
-      $footer = $('#footer'),
-      $languages = $('#languages'),
       $main = $('#main'),
       $main_articles = $main.children('article');
 
@@ -99,11 +97,6 @@
                 // Deactivate all articles (just in case one's already active).
                   $main_articles.removeClass('active');
 
-                // Hide header, footer, languages.
-                  $header.hide();
-                  $footer.hide();
-                  $languages.hide();
-
                 // Show main, article.
                   $main.show();
                   $article.show();
@@ -148,11 +141,6 @@
 
                       $article.addClass('active');
 
-                      // Window stuff.
-                        $window
-                          .scrollTop(0)
-                          .triggerHandler('resize.flexbox-fix');
-
                       // Unlock.
                         setTimeout(function() {
                           locked = false;
@@ -174,11 +162,6 @@
               // Show article.
                 setTimeout(function() {
 
-                  // Hide header, footer, languages.
-                    $header.hide();
-                    $footer.hide();
-                    $languages.hide();
-
                   // Show main, article.
                     $main.show();
                     $article.show();
@@ -187,11 +170,6 @@
                     setTimeout(function() {
 
                       $article.addClass('active');
-
-                      // Window stuff.
-                        $window
-                          .scrollTop(0)
-                          .triggerHandler('resize.flexbox-fix');
 
                       // Unlock.
                         setTimeout(function() {
@@ -234,11 +212,6 @@
                   $article.hide();
                   $main.hide();
 
-                // Show footer, header.
-                  $footer.show();
-                  $header.show();
-                  $languages.show();
-
                 // Unmark as visible.
                   $body.removeClass('is-article-visible');
 
@@ -247,11 +220,6 @@
 
                 // Unmark as switching.
                   $body.removeClass('is-switching');
-
-                // Window stuff.
-                  $window
-                    .scrollTop(0)
-                    .triggerHandler('resize.flexbox-fix');
 
                 return;
 
@@ -270,20 +238,10 @@
                 $article.hide();
                 $main.hide();
 
-              // Show footer, header.
-                $footer.show();
-                $header.show();
-                $languages.show();
-
               // Unmark as visible.
                 setTimeout(function() {
 
                   $body.removeClass('is-article-visible');
-
-                  // Window stuff.
-                    $window
-                      .scrollTop(0)
-                      .triggerHandler('resize.flexbox-fix');
 
                   // Unlock.
                     setTimeout(function() {
@@ -302,45 +260,10 @@
 
           var $this = $(this);
 
-          // Close.
-            $('<div class="close">Close</div>')
-              .appendTo($this)
-              .on('click', function() {
-                location.hash = '';
-              });
-
           // Prevent clicks from inside article from bubbling.
             $this.on('click', function(event) {
               event.stopPropagation();
             });
-
-        });
-
-      // Events.
-        $body.on('click', function(event) {
-
-          // Article visible? Hide.
-            if ($body.hasClass('is-article-visible'))
-              $main._hide(true);
-
-        });
-
-        $window.on('keyup', function(event) {
-
-          switch (event.keyCode) {
-
-            case 27:
-
-              // Article visible? Hide.
-                if ($body.hasClass('is-article-visible'))
-                  $main._hide(true);
-
-              break;
-
-            default:
-              break;
-
-          }
 
         });
 
@@ -373,30 +296,6 @@
 
         });
 
-      // Scroll restoration.
-      // This prevents the page from scrolling back to the top on a hashchange.
-        if ('scrollRestoration' in history)
-          history.scrollRestoration = 'manual';
-        else {
-
-          var oldScrollPos = 0,
-            scrollPos = 0,
-            $htmlbody = $('html,body');
-
-          $window
-            .on('scroll', function() {
-
-              oldScrollPos = scrollPos;
-              scrollPos = $htmlbody.scrollTop();
-
-            })
-            .on('hashchange', function() {
-              $window.scrollTop(oldScrollPos);
-            });
-
-        }
-
-      // Initialize.
 
         // Hide main, articles.
           $main.hide();

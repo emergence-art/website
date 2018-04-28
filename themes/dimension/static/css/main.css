@@ -967,16 +967,6 @@ button {
     background: #ffffff; }
   #header nav.use-middle ul li.is-middle {
     border-left: 0; }
-  body.is-article-visible #header {
-    -moz-transform: scale(0.95);
-    -webkit-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    transform: scale(0.95);
-    -moz-filter: blur(0.1rem);
-    -webkit-filter: blur(0.1rem);
-    -ms-filter: blur(0.1rem);
-    filter: blur(0.1rem);
-    opacity: 0; }
   body.is-loading #header {
     -moz-filter: blur(0.125rem);
     -webkit-filter: blur(0.125rem);

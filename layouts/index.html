@@ -17,6 +17,10 @@
           </video>
 
         <!-- Header -->
+          <audio controls>
+              <source src="/images/music.mp3" type="audio/mpeg">
+              <p>If you are reading this, it is because your browser does not support the audio element.</p>
+          </audio>
           <header id="header">
             <div class="logo">
               {{ with .Site.Params.logoimage }}
@@ -32,13 +36,13 @@
                 <p>{{ .Site.Params.description | safeHTML }}</p>
               </div>
             </div>
-            <nav>
-              <ul>
-                {{ range .Data.Pages.ByWeight }}
-                  <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
-                {{ end }}
-              </ul>
-            </nav>
+              <nav>
+                  <ul>
+                  {{ range .Data.Pages.ByWeight }}
+                      <li>{{ if isset .Params "link" }}<a href="{{ index .Params "link" }}"{{else}}<a href="#{{ .File.TranslationBaseName }}"{{end}}>{{ if .GetParam "menuname" }}{{ .GetParam "menuname" }}{{ else }}{{ .Title }}{{ end }}</a></li>
+                  {{ end }}
+                  </ul>
+              </nav>
           </header>
 
         <!-- Main -->
