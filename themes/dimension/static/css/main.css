@@ -1148,4 +1148,10 @@ button {
   body.is-loading #footer {
     opacity: 0; }
 
+  #logo {
+      display: block;
+      margin: auto;
+      width: 50%;
+      padding: 2rem;
+  }
 /*# sourceMappingURL=main.css.map */

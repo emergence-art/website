@@ -10,6 +10,12 @@
             }
 
         </style>
+<div class="content">
+    <div class="inner" style="text-align: center;">
+        <img src="/images/logo.jpg" id="logo"/>
+        <p>{{ .Site.Params.description | safeHTML }}</p>
+    </div>
+</div>
       <div id="wrapper">
         <div class="boxed">
           <video width = "1920" height = "480" autoplay loop  muted>
@@ -22,23 +28,10 @@
               <source src="/images/music.mp3" type="audio/mpeg">
               <p>If you are reading this, it is because your browser does not support the audio element.</p>
           </audio>
+          <script src="//www.powr.io/powr.js?external-type=html"></script>
+          <div style="width: 100%" class="powr-countdown-timer" id="6b47d4fa_1524789509"></div>
           <header id="header">
-            <!--
-            <div class="logo">
-              {{ with .Site.Params.logoimage }}
-              <img src="{{ . }}" width="100%" style="padding: 10px 10px 10px 10px;">
-            {{ end }}
-            {{ with .Site.Params.logo }}
-              <span class="icon {{ . }}"></span>
-            {{ end }}
-            </div>
-          -->
-            <div class="content">
-              <div class="inner">
-                <h1>{{ .Site.Title | safeHTML }}</h1>
-                <p>{{ .Site.Params.description | safeHTML }}</p>
-              </div>
-            </div>
+              <!--[-->Donate (Coming Soon!)<!--]--><br />
               <nav>
                   <ul>
                   {{ range .Data.Pages.ByWeight }}
