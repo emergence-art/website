@@ -44,14 +44,8 @@ body {
   box-sizing: border-box; }
 
 video {
-  width: 100%    !important;
-  height: auto   !important;
-  /*position: absolute;*/
-  min-width: 100%;
-  /*min-height: 100%;*/
-  /*top: 0%;*/
-  /*left: 50%;*/
-  /*transform: translate(-50%, -0%);*/
+  width: auto    !important;
+  height: 20rem   !important;
 }
 
 /* Basic */
@@ -59,7 +53,21 @@ video {
   width: device-width; }
 @media screen and (max-width: 480px) {
   html, body {
-    min-width: 320px; } }
+    min-width: 320px;
+  }
+
+  video {
+    width: auto !important;
+    height: 10rem !important;
+  }
+
+  #logo {
+    display: block;
+    margin: auto;
+    width: 20rem !important;
+    padding: 2rem;
+  }
+}
 body {
   background: #1b1f22; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
@@ -873,6 +881,7 @@ button {
   background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
   max-width: 100%;
   margin-top: 2rem;
+    margin-bottom: 2rem;
   text-align: center; }
   #header > * {
     -moz-transition: opacity 0.325s ease-in-out;
@@ -1151,7 +1160,7 @@ button {
   #logo {
       display: block;
       margin: auto;
-      width: 50%;
+      width: 30rem;
       padding: 2rem;
   }
 /*# sourceMappingURL=main.css.map */
