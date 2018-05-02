@@ -37,5 +37,5 @@ Today we don’t feel a sense of connection to our machines. We even struggle to
 
 
 
-{{< figure class="image" src="/images/Fotolia_head_emergence.jpg" width="220" height="196" >}}
-{{< figure class="image right" src="/images/Fotolia_head_emergence.jpg" >}}
+#{{< figure class="image" src="/images/Fotolia_head_emergence.jpg" width="220" height="196" >}}
+#{{< figure class="image right" src="/images/Fotolia_head_emergence.jpg" >}}
