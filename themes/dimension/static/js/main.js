@@ -83,6 +83,7 @@
             if ($article.length == 0)
               return;
 
+            $("#main").scroll();
           // Handle lock.
 
             // Already locked? Speed through "show" steps w/o delays.
@@ -177,6 +178,7 @@
                         }, delay);
 
                     }, 25);
+                    $("#main").scroll();
 
                 }, delay);
 
