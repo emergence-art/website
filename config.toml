@@ -14,12 +14,17 @@ disableKinds=["RSS"]
 [[params.social]]
   medium = "facebook"
   icon = "facebook"
-  link = "https://www.facebook.com/groups/2021207738157904/"
+  link = "https://www.facebook.com/EmergenceJourney/"
 
 [[params.social]]
   medium = "instagram"
   icon = "instagram"
   link = "#"
+
+  [[params.social]]
+    medium = "twitter"
+    icon = "twitter"
+    link = "https://twitter.com/EmergenceJourn1"
 
 [languages]
 [languages.en]

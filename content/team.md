@@ -14,11 +14,16 @@ I first came to Burning Man to build a home.  What profoundly touched me, was t
 <br>
 <br>
 <br>
+<br>
+<br>
 
 {{< figure class="image left" src="/images/JM_SM.jpg" >}}
 <h2>Jean-Michel Fabregon</h2>
 <h3>Project Lead and Design</h3>
 For as long as I can remember, I’ve been passionate with creating and building all sorts of things. I came to San Francisco from France after graduating from Design school and decided to stay after falling in love with the city and the Bay Area. When Vitaly first told me about the project I got very excited and it was clear to me that I needed to be a part of it and to contribute by offering my knowledge and talent to others.
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -37,11 +42,16 @@ Burning Man culture has reignited my childhood wonder in creating for the sake o
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 {{< figure class="image left" src="/images/BM_LidiaDarkova.jpg" >}}
 <h2>Lidia Darkova</h2>
 <h3>Fundraising and Storytelling</h3>
 I am an artist, designer, marketer and a burner. Through Burning Man, I discovered a deep satisfaction that comes from using art to help people communicate thoughts, ideas, and emotions that can't be expressed with words alone. As a community we constantly evolve in our artistic endeavors, technology and knowledge and now we face a new journey into the unknown of Artificial Intelligence. I'm so incredibly honored to be a part of the Emergence project that is not only artistic, but thought provoking as well.
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -61,6 +71,9 @@ I’m super stoked to work on Emergence in 2018.  See you on the Playa y’all!
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 
 {{< figure class="image left" src="/images/Eric_SM.jpg" >}}
 <h2>Eric Mintzer</h2>
@@ -73,11 +86,15 @@ I am thrilled to be part of a team merging advanced technologies from mechanical
 <br>
 <br>
 <br>
+<br>
+<br>
 
 {{< figure class="image left" src="/images/David_SM.jpg" >}}
 <h2>David Marchaland</h2>
 <h3>Embedded Controls</h3>
 After my first burn in 2016, I knew that becoming involved with an art project will be part of a next journey to Home.  This year, I had the opportunity to board in the Emergence journey, a subtle balance between art and technology.  Living in SF and working as an electrical engineer, I cannot be more excited to bring a technical experience to the creation of an hardware and software platform to give life to an inert structure.  Let’s motor and LEDs!
+<br>
+<br>
 <br>
 <br>
 <br>

@@ -21,7 +21,7 @@ body {
   line-height: 1; }
 
 ol, ul {
-  list-style: none; }
+  list-style: none; }	
 
 blockquote, q {
   quotes: none; }
@@ -51,7 +51,7 @@ body {
 /* Basic */
 @-ms-viewport {
   width: device-width; }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 440px) {
   html, body {
     min-width: 320px;
   }
@@ -102,7 +102,7 @@ body, input, select, textarea {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   font-size: 1rem;
-  line-height: 1.65; }
+  line-height: 1.3; }
 
 a {
   -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
@@ -123,12 +123,12 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2rem 0; }
+  margin: 0 0 1rem 0; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.2;
   margin: 0 0 1rem 0;
   text-transform: uppercase;
   letter-spacing: 0.2rem; }
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     width: -ms-max-content;
     width: max-content;
     padding-bottom: 0.5rem;
-    margin: 0 0 2rem 0; }
+    margin: 0 0 1rem 0; }
 
 h1 {
   font-size: 2.25rem;
@@ -880,8 +880,8 @@ button {
   background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
   background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
   max-width: 100%;
-  margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-align: center; }
   #header > * {
     -moz-transition: opacity 0.325s ease-in-out;
@@ -1070,7 +1070,7 @@ button {
     -webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
     -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
     transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-    padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+    padding: 0rem 0rem 0rem 0rem ;
     position: relative;
     width: 60rem;
     max-width: 100%;
@@ -1165,7 +1165,7 @@ button {
   }
 /*# sourceMappingURL=main.css.map */
 .powr-countdown-timer {
-    top: -200px;
+    top: -130px;
     position: relative;
     margin-bottom:  0px;
 }
