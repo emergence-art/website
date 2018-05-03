@@ -1,6 +1,6 @@
 +++
 title = "Design"
-weight = 40
+weight = 30
 draft = false
 +++
 

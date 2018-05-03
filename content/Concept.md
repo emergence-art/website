@@ -1,6 +1,6 @@
 +++
 title = "Concept"
-weight = 20
+weight = 10
 draft = false
 +++
 The Story of Emergence
@@ -34,8 +34,3 @@ Empathy is the enabling process of connection that binds us together and allows 
 
 Today we don’t feel a sense of connection to our machines. We even struggle to empathize with other humans that don’t look like us.  We are trying to create what feels like a presence there with you; something that is trying to understand you and you could relate back.
 {{< figure class="image main" src="/images/abyss.gif" >}}
-
-
-
-#{{< figure class="image" src="/images/Fotolia_head_emergence.jpg" width="220" height="196" >}}
-#{{< figure class="image right" src="/images/Fotolia_head_emergence.jpg" >}}
