@@ -21,7 +21,10 @@ Our story of Emergence explores this evolution of technology - creating life, co
 The Egg
 ---
 The story begins with the construction of the egg, which comes to a climactic unveiling when it hatches at Burning Man.  Inside will be an interactive artificial being comprised of over 11,000 LEDs and 400 motors.  Music, light, and 3D sensors will tell a story, a story in which you will partake to experience the playa and interact with AI.
-{{< figure class="image main" src="/images/EggOpening.jpg" >}}
+<video  autoplay loop  muted class="image main" >
+  <source id="video" src="/images/emergence_fb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 The Birth of Artificial Life
 ---
